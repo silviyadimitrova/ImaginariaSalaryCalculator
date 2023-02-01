@@ -16,15 +16,16 @@ namespace ImaginariaSalaryCalculator.Tests
             ITaxCalculatorFactory taxCalculatorFactory = new TaxCalculatorFactory();
             ITaxService taxService = new TaxService(taxIncentivesCalculatorFactory, taxCalculatorFactory);
 
-            var taxPayerData = new TaxPayer("Tom Johnson", DateTime.Now, 2500, "1234567", 0);
+            TaxPayerDto taxPayerDto = new TaxPayerDto("Tom Johnson", "10/10/1986", 2500, "1234567", 0);
+            TaxPayer taxPayerData = TaxPayer.Create(taxPayerDto);
             Taxes taxesRecord = new Taxes()
             {
                 CharitySpent = 0,
                 TotalTax = 625,
                 GrossIncome = 2500,
-                IncomeTax = 250.00M,
-                NetIncome = 1875.00M,
-                SocialTax = 375.00M
+                IncomeTax = 250,
+                NetIncome = 1875,
+                SocialTax = 375
             };
 
             // Act
