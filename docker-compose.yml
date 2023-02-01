@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  imaginariasalarycalculator:
+    image: ${DOCKER_REGISTRY-}imaginariasalarycalculator
+    build:
+      context: .
+      dockerfile: ImaginariaSalaryCalculator/Dockerfile
+
+  imaginariasalarycalculator.tests:
+    image: ${DOCKER_REGISTRY-}imaginariasalarycalculatortests
+    build:
+      context: .
+      dockerfile: ImaginariaSalaryCalculator.Tests/Dockerfile
+

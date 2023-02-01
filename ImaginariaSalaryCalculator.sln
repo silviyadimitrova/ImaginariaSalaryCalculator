@@ -5,7 +5,9 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImaginariaSalaryCalculator", "ImaginariaSalaryCalculator\ImaginariaSalaryCalculator.csproj", "{1519F526-25A6-462F-9249-26F5266B3556}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImaginariaSalaryCalculator.Tests", "ImaginariaSalaryCalculator.Tests\ImaginariaSalaryCalculator.Tests.csproj", "{45A0D040-74AE-48A1-AEF8-59D58E40E2DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImaginariaSalaryCalculator.Tests", "ImaginariaSalaryCalculator.Tests\ImaginariaSalaryCalculator.Tests.csproj", "{45A0D040-74AE-48A1-AEF8-59D58E40E2DD}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{EBCC4C1F-0B51-49CA-8F74-5628E8255CEB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{45A0D040-74AE-48A1-AEF8-59D58E40E2DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45A0D040-74AE-48A1-AEF8-59D58E40E2DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45A0D040-74AE-48A1-AEF8-59D58E40E2DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBCC4C1F-0B51-49CA-8F74-5628E8255CEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBCC4C1F-0B51-49CA-8F74-5628E8255CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBCC4C1F-0B51-49CA-8F74-5628E8255CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBCC4C1F-0B51-49CA-8F74-5628E8255CEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ImaginariaSalaryCalculator.Tests": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
